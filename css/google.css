@@ -1,15 +1,49 @@
 .logo{
-    height: 240px;
-    width: 250px;
+    height: 200px;
+    width: 260px;
    margin-left: 45%;
+   margin-top: 20px;
 }
 .input{
     width: 700px;
-    height: 60px;
+    height: 40px;
     border-radius: 30px;
     margin-left: 30%;
 }
-.rightbox{
+.button{
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.offered{
+    text-align: center;
+}
+.right{
     float: right;
-    ma
+    word-spacing: 10px;
+}
+.sections{
+    margin-top: 310px;
+    /* width: 1500px;  */
+    height: 50px;
+    background-color: silver;
+}
+.section{
+    background-color: silver;
+      word-spacing: 10px;
+}
+.navbar{
+    width: 100%;
+    border: 2px solid black;
+    background-color: orangered;
+
+  
+}
+.space{
+    word-spacing: 10px; 
+}
+body{
+    background-color: rgba(230, 207, 179, 0.822);
+}
+.center{
+    text-align: center;
 }
