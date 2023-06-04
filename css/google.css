@@ -32,18 +32,18 @@
       word-spacing: 10px;
 }
 .navbar{
-    width: 100%;
-    border: 2px solid black;
-    background-color: orangered;
-
+border: 2px solid black;
+overflow: hidden;
+background-color: orangered;
   
 }
 .space{
     word-spacing: 10px; 
 }
 body{
-    background-color: rgba(230, 207, 179, 0.822);
+    background-color:beige;
 }
 .center{
     text-align: center;
 }
+
