@@ -35,11 +35,35 @@
     margin-right: 1100px;
     font-size: 17px;
     border-radius: 10px;
-    size: 25px;
   }
   .logo{
     height: 90px;
     width: 180px;
+  }
+  .nav{
+    border: 2px solid black;
+    word-spacing: 116px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: black;
+    color: #ccc;
+    padding: 20px;
+  }
+  .highlight{
+    background-color: #ccc;
+    color: black;
+  }
+  .menu{
+    border: 2px solid white;
+    color: black;
+    background-color: rgba(239, 235, 235, 0.646);
+    font-weight: 600;
+    word-spacing: 60px;
+    padding: 11px;
+  }
+  .container{
+    display: inline-block;
+    font-size: larger;
   }
   
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */

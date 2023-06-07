@@ -32,9 +32,16 @@
       word-spacing: 10px;
 }
 .navbar{
-border: 2px solid black;
+/* border: 2px solid black;
 overflow: hidden;
-background-color: orangered;
+background-color: orangered; */
+border: 2px solid black;
+word-spacing: 80px;
+font-size: larger;
+font-weight: 600;
+background-color: rgb(221, 86, 28);
+color: #ccc;
+padding: 10px;
   
 }
 .space{
