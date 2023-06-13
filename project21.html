@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+    *{
+       box-sizing: border-box;
+    }
+    .container{
+    width: 900px;
+    border: 1px solid rgb(80, 3, 203);
+    margin:  auto;
+    height: 450px;
+    background: palegreen;
+    }
+    .item{
+    border: 3px solid gray;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background: rgb(176, 139, 212);
+    }
+    #fruit{
+      float: left;
+      width: 48%;
+    }
+    #computer{
+        float: right;
+      width: 48%;
+    }
+    #stationary{
+        float: left;
+      width: 100%;
+      clear: both;
+    }
+    p,h1{
+        /* text-align: right;
+        text-align: left;
+        text-align: center; */
+        text-align: justify;
+    }
+    h1{
+      margin: auto;
+      width: 455px;
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quaerat soluta, ipsum suscipit enim deleniti, nulla corrupti quos laboriosam sequi fugit doloremque? Neque fuga obcaecati ab fugit. Consectetur, vitae similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi neque odit delectus quod, iusto, voluptates eaque optio, nam vero ullam laudantium perspiciatis! Itaque quidem, officiis pariatur amet dicta quaerat necessitatibus quibusdam impedit possimus eius?</p>
+        </div>
+        <div class="container">
+            <div id="computer" class="item">
+            <h3>Computers</h3>
+            <p id="computerpara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum aliquam assumenda. Facere porro quibusdam delectus nostrum, id temporibus inventore! Id rerum nemo obcaecati sit sapiente vitae nobis iusto aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque neque maxime explicabo similique et laudantium voluptatibus! Rem sequi quis atque voluptates veritatis, tempora molestiae, velit modi praesentium, tenetur dolore? Accusantium corporis totam eum!</p>
+        </div>
+        <div class="container">
+            <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus dolore, similique ratione amet voluptas ab repellat odit et dolor, eligendi aperiam, totam facere. Nobis explicabo, nostrum veniam tempore laborum alias.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
