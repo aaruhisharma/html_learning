@@ -1,0 +1,45 @@
+.container{
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    /* Initialize the container as a flex box*/
+    display: flex;
+/* Flex properties for flex container*/
+     flex-direction: row;
+    /*flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+     flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row-reverse wrap; */
+    justify-content: center;
+    justify-content: space-between;
+    /* justify-content: space-evenly;
+    justify-content: space-around; */
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 3px;
+}
+#item-1{
+    /* Flex properties for a flex item */
+        /* Higher the order,later it shows up in container */
+    order: 2;
+    flex-grow: 3;
+}
+#item-2{
+    flex-grow: 4;
+    flex-shrink: 8;
+    flex-basis: 160px;
+}
+#item-3{
+    order: 40;
+    flex: 2 2 230px;
+}
