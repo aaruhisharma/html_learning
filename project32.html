@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid goldenrod; */
+            background-color: lawngreen;
+            /* box-shadow: 5px 3px goldenrod; */
+            /* box-shadow: -5px -3px goldenrod; */
+             box-shadow: 7px 5px 12px blueviolet;/*for blur shadow*/
+             /* box-shadow: -7px -5px 10px blueviolet; */
+             /* box-shadow: -7px -5px 10px 34px blueviolet; */
+             /* box-shadow: -7px -5px 10px 34px  rgba(71,172,172, 0.5); */
+        } 
+
+        .card h2{
+            /* text-shadow:3px 4px rgb(241, 240, 242); */
+            text-shadow: 3px 4px 2px whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="card" id="card-1">
+        <h2>This is card1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias recusandae dolore, harum, consectetur qui odio neque ipsa quas ut cupiditate veritatis minus aliquam ea perferendis omnis laboriosam. Eius odio rem expedita ipsa atque nostrum sit omnis saepe id, eaque ea.</p>
+    </div>
+    <div class="card" id="card-2">
+        <h2>This is card2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sit consequuntur quasi quo mollitia ducimus placeat rerum laborum velit veritatis molestiae culpa esse amet cum beatae error tenetur eum inventore necessitatibus accusamus suscipit quod et accusantium. Blanditiis enim veritatis est.</p>
+    </div>
+    <div class="card" id="card-3">
+        <h2>This is card3</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, sed deleniti. Ab, ad, aperiam, architecto laboriosam nobis vel facilis dicta voluptate distinctio itaque magnam. Sapiente iure placeat molestiae odit quas necessitatibus aspernatur recusandae explicabo cum aliquid, aliquam ad et illo?</p>
+    </div>
+</div>
+</body>
+</html>

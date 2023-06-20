@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pseudo selector</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+           
+        }
+
+        header::before{
+            content: "";
+            background: url("./bihar.jpg") no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100% ;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+
+        }
+        .navigation{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 25px;
+            display: flex;
+        }
+        li{
+            list-style: none;
+            padding: 20px 20px;
+        }
+       section{
+        height: 344px;
+        /* border: 2px solid white; */
+        margin: 3px 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        /* text-align: justify;*/
+       }  
+
+       h3{
+        font-size: 4rem;
+       }
+
+       p{
+        text-align: center;
+       }
+       /* section::before{
+        content: "this is a content";
+       } */
+
+       /* section::after{
+        content: "this is a content";
+       }  */
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+          <section>
+            <h3>Welcome to Bihar</h3>
+            <p>Bihar lies mid-way between West Bengal in the east and Uttar Pradesh in the west. It is bounded by the country of Nepal to the north and by the state of Jharkhand to the south. The Bihar plain is divided into two parts by the river Ganges which flows through the middle from west to east. Bihar has notified forest area of 6,764.14 km2, which is 6.8% of its geographical area. Hindi and Urdu are the official languages of the state, while the majority of the people speak Angika, Bhojpuri, Magadhi, Maithili and Bajjika.
+ 
+
+                Ancient Bihar (which consisted of Anga, Videha/Mithila, Magadha and Vajji/Vrijji) was a centre of power, learning and culture in primeval and classical India. From Magadha arose one of India's first and greatest kingdoms, the Mauryan Empire, as well as one of the world's most widely adhered to religions, Buddhism. Magadha empires, notably under the Maurya and Gupta dynasties, unified large parts of South Asia under a central rule. Its capital Patna, earlier known as Pataliputra, was an important centre of Indian civilization. Nalanda and Vikramshila were centres of learning, established in the 5th and 8th century respectively in Bihar. These are counted amongst the oldest and truly international universities, where people from all over the world came to study. Bihar also has the distinction of giving the world its first democracy through Lichchivi (now Vaishali) during ancient era.Today, Bihar lags behind the other Indian states in human, economic and development front. 
+                 </p>
+          </section>
+    </header>
+</body>
+</html>
