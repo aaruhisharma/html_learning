@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and animations</title>
+    <style>
+        .container{
+            background-color: yellow;
+        }
+
+        .box{
+            background-color: green;
+            color: white;
+            text-align: center;
+            font-size:large;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            /* animation-name: aaruhi1; */
+            animation-name: aaruhi2;
+            animation-duration: 2s; 
+            animation-iteration-count: 5; 
+            /* animation-iteration-count: infinite; */
+            /* animation-fill-mode: forwards; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-out; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-delay: 3s; */
+            animation-direction: alternate;
+            /* animation: aaruhi1 2s ease-in 1s 12 backwards; */
+           
+
+        }
+        @keyframes aaruhi2{
+        0%{
+            top:0px;
+            left:0px;
+        }
+        25%{
+            top:250px;
+            left: 0px;
+        }
+        75%{
+            top:250px;
+            left: 250px;
+        }
+        100%{
+            top:0px;
+            left: 250px;
+        }
+        }
+        @keyframes aaruhi1{
+            from{
+        width: 200px;
+            }
+            to{
+        width: 800px;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="box">
+      <!-- This is a box   -->
+       I am Amrendra Kumar
+    </div>
+   </div> 
+</body>
+</html>
