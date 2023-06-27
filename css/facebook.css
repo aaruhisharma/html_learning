@@ -9,19 +9,76 @@
 
 .navbar{
     width: 100%;
-    height: 190px;
+    height: 130px;
     border: 2px solid blue;
     background-color: rgba(39, 39, 163, 0.735);
 }
 
 .navbar .logo{
-    height: 110px;
+    height: 100px;
     width:118px;
     padding: 23px;
    
 }
 
 .right{
-
+float: right;
+margin-top: 40px;
+margin-right: 20px;
+justify-content: space-around;
+border-radius: 9px;
+width: 200px;
 
 }
+
+.main{
+    display: flex;
+    padding: 34px 50px;
+    justify-content: space-around;
+}
+
+.head1{
+    color: rgb(107, 107, 249);
+    font-weight: 600;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+input{
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+.space{
+        margin-top: 10px;
+        size: 50px;
+    }
+
+    .btn{
+        padding: 4px 40px;
+        border: 2px solid white;
+        background-color:green;
+        color: white;
+        margin: 20px;
+        font-size: 1.3rem;
+        border-radius: 8px;
+        cursor: pointer;
+        
+    }
+
+    .rightlogo{
+        margin-right: 30%;
+        margin-top:10%;
+        width: 30%;
+        height: 30%;
+    }
+
+    .logo2{
+        height: 160%;
+        width: 190%;
+    }
+
+    a{
+        text-decoration: none;
+        color: blue;
+    }
