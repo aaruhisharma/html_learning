@@ -1,0 +1,16 @@
+h1{
+    border: 2px dotted brown;
+    padding-left: 20px;
+    /* margin: 100px; */
+    /* width: 500px; */
+    /* margin:  auto; */
+    width: 100%;
+    text-align: center;
+    background-color: lawngreen;
+}
+
+p{
+    border: 2px solid blue;
+    background-color: rgb(234, 192, 233);
+    font-weight: 800;
+}
