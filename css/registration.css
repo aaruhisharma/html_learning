@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color: maroon;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    width: 30%;
+}
+
+input{
+    height: 20px;
+}
+
+button{
+    padding: 10px;
+    width: 200%;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px;
+}
