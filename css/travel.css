@@ -6,9 +6,37 @@
     box-sizing: border-box;
 }
 
+html{
+     font-size: 90%; 
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
 }
+
+ul li{
+    list-style: none;
+}
+
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+p,li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+h1,h2,h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+
 
 .header{
     height: 95vh;
@@ -18,8 +46,10 @@ body{
     background-size: cover;
 }
  .navbar{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    padding: 1rem;
  }
+
 .header .logo,
 .header .navbar a{
     color: white;
@@ -27,8 +57,23 @@ body{
 
 .header .navbar.logo{
     float: left;
+    height: 30px;
 }
 
 .header .navbar .nav-items{
     float: right;
+   
 }
+
+.header .navbar .nav-item{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
