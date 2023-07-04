@@ -1,0 +1,27 @@
+h1{
+    background-color: #cdcdcd;
+    text-align: center;
+    padding: 15px 0px;
+}
+section{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.about-me{
+     margin-bottom:14px ; 
+     background-color: rgb(134, 214, 214);
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-you{
+    margin-bottom:14px ; 
+    background-color: rgb(134, 214, 214);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+section h3{
+  font-weight: 800;
+  font-size: larger;
+}
